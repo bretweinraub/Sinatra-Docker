@@ -1,0 +1,53 @@
+GIT
+  remote: https://github.com/sinatra/sinatra.git
+  revision: b626e2d82c23b4fde0b51782fd32ca27ccde1d1a
+  specs:
+    rack-protection (4.0.0)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0, < 4)
+    sinatra (4.0.0)
+      mustermann (~> 3.0)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.0.0)
+      rack-session (>= 2.0.0, < 3)
+      tilt (~> 2.0)
+    sinatra-contrib (4.0.0)
+      multi_json (>= 0.0.2)
+      mustermann (~> 3.0)
+      rack-protection (= 4.0.0)
+      sinatra (= 4.0.0)
+      tilt (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    daemons (1.4.1)
+    eventmachine (1.2.7)
+    multi_json (1.15.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (3.0.9)
+    rack-session (2.0.0)
+      rack (>= 3.0.0)
+    ruby2_keywords (0.0.5)
+    sinatra-reloader (1.0)
+      sinatra-contrib
+    thin (1.6.2)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+    tilt (2.3.0)
+
+PLATFORMS
+  aarch64-linux-musl
+  ruby
+
+DEPENDENCIES
+  sinatra!
+  sinatra-reloader
+  thin
+
+BUNDLED WITH
+   2.5.3
+   
